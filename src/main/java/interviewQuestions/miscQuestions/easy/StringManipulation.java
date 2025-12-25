@@ -1,4 +1,4 @@
-package interviewQuestions.miscQuestions;
+package interviewQuestions.miscQuestions.easy;
 
 public class StringManipulation {
 

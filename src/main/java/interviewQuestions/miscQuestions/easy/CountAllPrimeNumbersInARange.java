@@ -1,4 +1,4 @@
-package interviewQuestions.miscQuestions;
+package interviewQuestions.miscQuestions.easy;
 
 public class CountAllPrimeNumbersInARange {
     public static void main(String[] args) {
