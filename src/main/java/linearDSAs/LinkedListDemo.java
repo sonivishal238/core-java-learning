@@ -1,4 +1,4 @@
-package language;
+package linearDSAs;
 
 public class LinkedListDemo {
 
