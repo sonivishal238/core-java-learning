@@ -1,7 +1,10 @@
 package interviewQuestions.miscQuestions.easy;
 
+import org.testng.annotations.Test;
+
 public class CountAllPrimeNumbersInARange {
-    public static void main(String[] args) {
+    @Test
+    public void countInRange() {
 
         /*
             Sieve Algo
@@ -29,5 +32,19 @@ public class CountAllPrimeNumbersInARange {
         }
 
         System.out.println(count);
+    }
+
+    @Test
+    public void isPrimeTest() {
+        System.out.println(checkPrime(39));
+    }
+    static boolean checkPrime(int num) {
+        if (num <= 1) return false;
+
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) return false;
+        }
+
+        return true;
     }
 }
