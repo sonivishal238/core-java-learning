@@ -1,4 +1,4 @@
-package BinarySearchQuestions;
+package interviewQuestions.binarysearchquestions;
 
 public class SquareRootProblem {
 
