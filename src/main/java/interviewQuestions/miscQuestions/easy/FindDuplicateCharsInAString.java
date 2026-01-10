@@ -16,13 +16,8 @@ public class FindDuplicateCharsInAString {
 
         Map<Character, Integer> results = new HashMap<>();
 
-        for(char c : arr) {
-            if(!results.containsKey(c)) {
-                results.put(c, 1);
-            }
-            else {
-                results.put(c, results.get(c) + 1);
-            }
+        for (char c : arr) {
+            results.put(c, results.getOrDefault(c, 0) + 1);
         }
 
         for(Map.Entry<Character, Integer> entry : results.entrySet()) {
