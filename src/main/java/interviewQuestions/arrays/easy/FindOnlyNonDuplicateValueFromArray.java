@@ -2,7 +2,7 @@ package interviewQuestions.arrays.easy;
 
 import org.testng.annotations.Test;
 
-public class FindOnlyDuplicateValueFromArray {
+public class FindOnlyNonDuplicateValueFromArray {
 
     @Test
     public void test() {
