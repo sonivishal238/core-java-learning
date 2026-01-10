@@ -1,4 +1,4 @@
-package leetCodeArray;
+package interviewQuestions.arrays.easy;
 
 import java.util.Arrays;
 
