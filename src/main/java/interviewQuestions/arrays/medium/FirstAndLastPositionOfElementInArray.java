@@ -1,4 +1,4 @@
-package interviewQuestions.binarysearchquestions;
+package interviewQuestions.arrays.medium;
 
 import org.testng.annotations.Test;
 

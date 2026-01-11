@@ -1,4 +1,4 @@
-package interviewQuestions.binarysearchquestions;
+package interviewQuestions.arrays.medium;
 
 public class PeakInAMountainArray {
 	public int peakIndexInMountainArray(int[] arr) {
