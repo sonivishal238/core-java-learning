@@ -1,6 +1,5 @@
-package interviewQuestions.stack;
+package interviewQuestions.stringquestions;
 
-import java.util.ArrayList;
 import java.util.Stack;
 
 public class RemoveAdjacentDuplicates {

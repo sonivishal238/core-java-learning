@@ -1,4 +1,4 @@
-package interviewQuestions.stack;
+package interviewQuestions.stringquestions;
 
 import java.util.*;
 
