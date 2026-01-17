@@ -1,4 +1,4 @@
-package stringquestions;
+package interviewQuestions.stringquestions;
 
 public class lengthOfLongestSubsequenceWhichIsASubstringOfStringB {
     public static int longestSubsequence(String x, String y) {

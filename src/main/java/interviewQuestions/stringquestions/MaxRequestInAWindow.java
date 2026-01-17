@@ -1,4 +1,4 @@
-package stringquestions;
+package interviewQuestions.stringquestions;
 
 import java.util.Collections;
 import java.util.List;

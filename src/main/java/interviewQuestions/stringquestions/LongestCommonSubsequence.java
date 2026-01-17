@@ -1,4 +1,4 @@
-package stringquestions;
+package interviewQuestions.stringquestions;
 
 public class LongestCommonSubsequence {
 
