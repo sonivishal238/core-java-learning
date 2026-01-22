@@ -1,10 +1,13 @@
 package interviewQuestions.stringquestions;
 
+import org.testng.annotations.Test;
+
 import java.util.Stack;
 
 public class CheckIfParenthesisAreBalanced {
 
-	public static void main(String[] args) {
+	@Test
+	public static void test() {
 //		String str = "()[]{}";
         String str = "{[()]}";
         System.out.println(balanced(str));
