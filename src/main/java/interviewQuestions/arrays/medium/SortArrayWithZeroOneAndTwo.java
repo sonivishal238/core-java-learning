@@ -2,7 +2,7 @@ package interviewQuestions.arrays.medium;
 
 import org.testng.annotations.Test;
 
-public class SortZeroOneAndTwo {
+public class SortArrayWithZeroOneAndTwo {
 
     @Test
     public void solution() {
