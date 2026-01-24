@@ -8,9 +8,7 @@ public class lengthOfLongestSubsequenceWhichIsASubstringOfStringB {
             for (int j = i + 1; j <= y.length(); j++) {
                 String sub = y.substring(i, j);
 
-                if (sub.length() <= maxLen) continue;
-
-                if (isSubsequence(sub, x)) {
+                if (sub.length() > maxLen && isSubsequence(sub, x)) {
                     maxLen = sub.length();
                 }
             }
@@ -19,17 +17,17 @@ public class lengthOfLongestSubsequenceWhichIsASubstringOfStringB {
         return maxLen;
     }
 
-    private static boolean isSubsequence(String s, String x) {
+    private static boolean isSubsequence(String substring, String x) {
         int i = 0, j = 0;
 
-        while (i < s.length() && j < x.length()) {
-            if (s.charAt(i) == x.charAt(j)) {
+        while (i < substring.length() && j < x.length()) {
+            if (substring.charAt(i) == x.charAt(j)) {
                 i++;
             }
             j++;
         }
 
-        return i == s.length();
+        return i == substring.length();
     }
 
 }
