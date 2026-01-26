@@ -4,11 +4,11 @@ public class MaximumOccuringCharacter {
 
 	public static void main(String[] args) {
 		
-		System.out.println(getMaxOccuringChar("hithisisvishallllaaaahhhh"));
+		System.out.println(getMaxOccurringChar("hithisisvishallllaaaahhhh"));
 	}
 
 	
-	static char getMaxOccuringChar(String str) {
+	static char getMaxOccurringChar(String str) {
 		int arr[] = new int[26];
 		char[] cArray = str.toCharArray();
 		

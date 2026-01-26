@@ -4,7 +4,12 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class ReverseString {
-    static String reverse(String s) {
+
+    public static void main(String[] args) {
+        System.out.println(reverseUsingStack("abcd")); // dcba
+    }
+
+    static String reverseUsingStack(String s) {
         Deque<Character> stack = new ArrayDeque<>();
 
         for (char c : s.toCharArray()) {
@@ -18,7 +23,17 @@ public class ReverseString {
         return sb.toString();
     }
 
-    public static void main(String[] args) {
-        System.out.println(reverse("abcd")); // dcba
+    public static void reverseUsingArray() {
+
+        String str = "Vishal";
+        char[] array = str.toCharArray();
+
+        for(int left = 0, right = array.length -1; left < right; left++, right--) {
+            char temp = array[left];
+            array[left] = array[right];
+            array[right] = temp;
+        }
+
+        System.out.println(new String(array));
     }
 }

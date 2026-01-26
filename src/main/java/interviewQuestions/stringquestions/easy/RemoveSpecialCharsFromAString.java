@@ -1,4 +1,4 @@
-package interviewQuestions.miscQuestions.easy;
+package interviewQuestions.stringquestions.easy;
 
 public class RemoveSpecialCharsFromAString {
     public static void main(String[] args) {

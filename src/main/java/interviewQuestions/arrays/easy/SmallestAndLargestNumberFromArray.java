@@ -1,4 +1,4 @@
-package interviewQuestions.miscQuestions.easy;
+package interviewQuestions.arrays.easy;
 
 public class SmallestAndLargestNumberFromArray {
     public static void main(String[] args) {

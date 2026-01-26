@@ -1,8 +1,7 @@
-package interviewQuestions.miscQuestions.easy;
+package interviewQuestions.stringquestions.easy;
 
 import org.testng.annotations.Test;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package interviewQuestions.miscQuestions.easy;
+package interviewQuestions.stringquestions.easy;
 
 import org.testng.annotations.Test;
 
