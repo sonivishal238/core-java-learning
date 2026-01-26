@@ -1,4 +1,4 @@
-package interviewQuestions.stringquestions;
+package interviewQuestions.stringquestions.medium;
 
 public class LongestPalindromicSubstring {
 

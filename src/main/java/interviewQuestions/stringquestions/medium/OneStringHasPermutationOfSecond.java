@@ -1,4 +1,4 @@
-package interviewQuestions.stringquestions;
+package interviewQuestions.stringquestions.medium;
 
 public class OneStringHasPermutationOfSecond {
 
@@ -6,7 +6,6 @@ public class OneStringHasPermutationOfSecond {
 		
 		System.out.println(checkInclusion("ba", "zcdcabd"));
 	}
-	
 	
 	static boolean checkInclusion(String s1, String s2) {
 		
@@ -22,11 +21,11 @@ public class OneStringHasPermutationOfSecond {
 		}
 		
 		int i = 0;
-		int windoSize = s1.length();
+		int windowSize = s1.length();
 		int count2[] = new int[26];
 		
 		// Check if permutation of s1 is available in the very first window/place
-		while( i < windoSize && i < s2.length()) {
+		while( i < windowSize && i < s2.length()) {
 			int index = c2[i] - 'a';
 			count2[index]++;
 			i++;
@@ -44,7 +43,7 @@ public class OneStringHasPermutationOfSecond {
 			int index = newChar - 'a';
 			count2[index]++;
 			
-			char oldChar = c2[i - windoSize];
+			char oldChar = c2[i - windowSize];
 			index = oldChar - 'a';
 			count2[index]--;
 			i++;
