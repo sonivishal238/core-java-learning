@@ -1,4 +1,4 @@
-package interviewQuestions.stringquestions.medium;
+package interviewQuestions.stringquestions.easy;
 
 public class MaximumOccuringCharacter {
 
