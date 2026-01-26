@@ -3,7 +3,6 @@ package interviewQuestions.stringquestions.medium;
 public class OneStringHasPermutationOfSecond {
 
 	public static void main(String[] args) {
-		
 		System.out.println(checkInclusion("ba", "zcdcabd"));
 	}
 	
