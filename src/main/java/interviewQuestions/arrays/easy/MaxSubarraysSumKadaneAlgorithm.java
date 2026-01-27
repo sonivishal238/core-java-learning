@@ -1,6 +1,6 @@
 package interviewQuestions.arrays.easy;
 
-public class SubarraysMaxSumKadaneAlgorithm {
+public class MaxSubarraysSumKadaneAlgorithm {
 
     public static void main(String[] args) {
         int arr[] = {1, 8, -8, 5, -10, 2};
