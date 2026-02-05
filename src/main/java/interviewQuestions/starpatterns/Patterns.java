@@ -1,4 +1,4 @@
-package interviewQuestions.patterns;
+package interviewQuestions.starpatterns;
 
 import org.testng.annotations.Test;
 
