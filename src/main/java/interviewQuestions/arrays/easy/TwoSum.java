@@ -8,7 +8,7 @@ public class TwoSum {
     public static void main(String[] args) {
         int nums[] = {2, 11, 7, 25, 1, 56, 78, 9, 10};
 
-        for(int num : getTwoSums(nums, 100)) {
+        for(int num : getTwoSums(nums, 71)) {
             System.out.println(num);
         }
     }

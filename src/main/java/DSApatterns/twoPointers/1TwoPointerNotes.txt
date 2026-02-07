@@ -1,0 +1,20 @@
+Conditions
+
+- Mainly Array/Linkedlist pe lagta hai
+- Do not use extra space ho
+- Sorted/Sorting de rkhaa hai to chances hai
+- Merge/Remove Duplicate/Re-Arrange likha hua hai to chances hai two pointer lagega
+- Pair/Triplets/Quadruples agar find krne ho to
+
+Questions Types:
+- Opposite direction pointers (array/string, sorted)
+- Same direction (slow–fast)
+- Window-style two pointers
+- Cycle detection
+- Advanced optimizations & traps
+
+
+Questions in this repo (To be done in the same order)
+
+- TwoSumSortedArray
+- 
