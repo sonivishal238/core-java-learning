@@ -21,7 +21,7 @@ public class RemoveDuplicatesFromSortedArray {
         int slow = 0, fast = 1;
 
         while(fast < length) {
-            if(arr[fast] > arr[slow]) {
+            if(arr[fast] != arr[slow]) {
                 arr[++slow] = arr[fast];
             }
             fast++;
