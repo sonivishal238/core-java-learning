@@ -1,5 +1,8 @@
 package DSApatterns.twoPointers;
 
+/*
+https://leetcode.com/problems/squares-of-a-sorted-array/
+ */
 public class SquaresOfSortedArray {
 
     public int[] sortedSquares(int[] nums) {
