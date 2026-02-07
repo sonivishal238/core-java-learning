@@ -1,8 +1,8 @@
-package interviewQuestions.arrays.easy;
+package DSApatterns.twoPointers;
 
 import org.testng.annotations.Test;
 
-public class MoveZerosToRightPreservingOrder {
+public class MoveZerosToRightPreservingOrderOfNonZeros {
 
     @Test
     public void solution(){

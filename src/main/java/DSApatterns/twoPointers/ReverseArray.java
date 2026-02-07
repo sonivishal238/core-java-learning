@@ -1,4 +1,4 @@
-package interviewQuestions.arrays.easy;
+package DSApatterns.twoPointers;
 
 import java.util.Arrays;
 

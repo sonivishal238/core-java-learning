@@ -1,9 +1,9 @@
-package interviewQuestions.arrays.easy;
+package DSApatterns.twoPointers;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoSum {
+public class TwoSumUnsortedArray {
 
     public static void main(String[] args) {
         int nums[] = {2, 11, 7, 25, 1, 56, 78, 9, 10};

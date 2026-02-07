@@ -1,4 +1,4 @@
-package interviewQuestions.arrays.easy;
+package DSApatterns.twoPointers;
 
 public class SortArrayWithZeroAndOneOnly {
 
@@ -12,7 +12,7 @@ public class SortArrayWithZeroAndOneOnly {
 	}
 
 	private static void sortOne(int[] arr) {
-		
+
 		int left = 0, right = arr.length - 1;
 		
 		while(left < right) {

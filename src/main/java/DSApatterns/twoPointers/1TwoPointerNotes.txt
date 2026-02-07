@@ -16,5 +16,9 @@ Questions Types:
 
 Questions in this repo (To be done in the same order)
 
+- Reverse Array/String or Plaindrome array/Strings
+- SortArrayWithZeroAndOneOnly
 - TwoSumSortedArray
-- 
+- TwoSumUnsortedArray
+- RemoveDuplicatesFromSortedArray
+- MoveZerosToRightPreservingOrderOfNonZeros
