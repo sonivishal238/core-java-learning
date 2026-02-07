@@ -22,3 +22,4 @@ Questions in this repo (To be done in the same order)
 - TwoSumUnsortedArray
 - RemoveDuplicatesFromSortedArray
 - MoveZerosToRightPreservingOrderOfNonZeros
+- SquaresOfSortedArray
