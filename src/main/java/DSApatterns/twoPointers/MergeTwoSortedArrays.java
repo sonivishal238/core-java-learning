@@ -1,5 +1,8 @@
-package interviewQuestions.arrays.easy;
+package DSApatterns.twoPointers;
 
+/*
+https://leetcode.com/problems/merge-sorted-array/description/
+ */
 public class MergeTwoSortedArrays {
 
 	// Driver Code
@@ -7,14 +10,14 @@ public class MergeTwoSortedArrays {
 
 		int[] arr1 = { 1, 4, 6, 10, 0, 0 };
 		int[] arr2 = { 2, 5 };
-		System.out.println(ninjaAndSortedArrays(arr1, arr2, 4, 2));
+		System.out.println(mergeArrays(arr1, arr2, 4, 2));
 
 		for (int n : arr1) {
 			System.out.println(n);
 		}
 	}
 
-	public static int[] ninjaAndSortedArrays(int arr1[], int arr2[], int m, int n) {
+	public static int[] mergeArrays(int arr1[], int arr2[], int m, int n) {
 		int i = m - 1; // Index of last element in arr1
 		int j = n - 1; // Index of last element in arr2
 		int k = m + n - 1; // Index of last element in merged arr1

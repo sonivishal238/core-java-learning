@@ -18,8 +18,10 @@ Questions in this repo (To be done in the same order)
 
 - Reverse Array/String or Plaindrome array/Strings
 - SortArrayWithZeroAndOneOnly
+- SortArrayWithZeroOneAndTwo
 - TwoSumSortedArray
 - TwoSumUnsortedArray
 - RemoveDuplicatesFromSortedArray
 - MoveZerosToRightPreservingOrderOfNonZeros
 - SquaresOfSortedArray
+- MergeTwoSortedArrays

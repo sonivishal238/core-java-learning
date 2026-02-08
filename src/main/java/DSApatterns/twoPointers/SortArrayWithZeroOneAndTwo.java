@@ -1,4 +1,4 @@
-package interviewQuestions.arrays.medium;
+package DSApatterns.twoPointers;
 
 import org.testng.annotations.Test;
 
