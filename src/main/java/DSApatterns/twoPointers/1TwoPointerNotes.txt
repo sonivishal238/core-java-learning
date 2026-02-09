@@ -32,3 +32,4 @@ Easy:
 Medium:
 - ThreeSumToZero
 - ThreeSumCloseToTarget
+- ThreeSumSmallerThanTarget

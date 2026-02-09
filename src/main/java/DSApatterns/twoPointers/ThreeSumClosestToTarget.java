@@ -5,7 +5,7 @@ import java.util.Arrays;
 /*
 https://leetcode.com/problems/3sum-closest/description/
  */
-public class ThreeSumCloseToTarget {
+public class ThreeSumClosestToTarget {
 
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
