@@ -4,7 +4,8 @@ Conditions
 - Do not use extra space ho
 - Sorted/Sorting de rkhaa hai to chances hai
 - Merge/Remove Duplicate/Re-Arrange likha hua hai to chances hai two pointer lagega
-- Pair/Triplets/Quadruples agar find krne ho to
+- 1 se zyada cheezein find karni hai like Pair/Triplets/Quadruples agar find krne ho to
+- Need ho to array ko sort krna sahi rehta hai generally
 
 Questions Types:
 - Opposite direction pointers (array/string, sorted)
@@ -14,8 +15,9 @@ Questions Types:
 - Advanced optimizations & traps
 
 
-Questions in this repo (To be done in the same order)
+Questions in this package (To be done in the same order)
 
+Easy:
 - Reverse Array/String or Plaindrome array/Strings
 - SortArrayWithZeroAndOneOnly
 - SortArrayWithZeroOneAndTwo
@@ -25,3 +27,8 @@ Questions in this repo (To be done in the same order)
 - MoveZerosToRightPreservingOrderOfNonZeros
 - SquaresOfSortedArray
 - MergeTwoSortedArrays
+
+
+Medium:
+- TripletsSumToZero
+-
