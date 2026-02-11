@@ -2,7 +2,7 @@ package DSApatterns.twoPointers;
 
 import org.testng.annotations.Test;
 
-public class SortArrayWithZeroOneAndTwo {
+public class SortArrayWithZeroOneAndTwoDutchNationalFlag {
 
     @Test
     public void solution() {

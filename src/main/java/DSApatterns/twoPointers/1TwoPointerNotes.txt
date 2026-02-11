@@ -24,7 +24,7 @@ Easy:
 - TwoSumSortedArray
 - TwoSumUnsortedArray
 - RemoveDuplicatesFromSortedArray
-- MoveZerosToRightPreservingOrderOfNonZeros
+- SortArrayWithZeroOneAndTwoDutchNationalFlag
 - SquaresOfSortedArray
 - MergeTwoSortedArrays
 
