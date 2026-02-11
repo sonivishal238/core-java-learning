@@ -43,6 +43,7 @@ public class ThreeSumToZero {
                     left++;
                     right--;
 
+                    // neeche ki do line again duplicates ko ignore krne ke lie hai as per the problem statement
                     while (left < right && nums[left] == nums[left - 1]) left++;
                     while (left < right && nums[right] == nums[right + 1]) right--;
                 }
