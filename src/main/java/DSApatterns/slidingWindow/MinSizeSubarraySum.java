@@ -1,4 +1,4 @@
-package interviewQuestions.arrays.medium;
+package DSApatterns.slidingWindow;
 
 /**
  * Minimum Size Subarray Sum
