@@ -28,3 +28,7 @@ Questions in this package (To be done in the same order)
 Easy:
 - MaxSumSubarrayOfSizeK
 - MaxAverageSubarrayOfSizeK
+
+
+Medium:
+- CountDistinctElementsInEveryWindowOfSizeK
