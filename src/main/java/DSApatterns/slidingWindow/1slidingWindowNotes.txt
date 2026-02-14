@@ -21,6 +21,8 @@ Steps:
 1. Find window type (fixed / variable)
 2. Data/Information find krna hai
 3. New window information and comparison with previous
+4. Remove outgoing (left side)
+5. Add incoming(right)
 
 
 Questions in this package (To be done in the same order)
@@ -31,5 +33,9 @@ Easy:
 
 
 Medium:
-- CountDistinctElementsInEveryWindowOfSizeK
 - MinSizeSubarraySum
+- MaxSizeSubarrayWithTargetSum
+- CountDistinctElementsInEveryWindowOfSizeK
+- SlidingSubArrayBeauty
+
+Hard:
