@@ -35,6 +35,7 @@ Easy:
 Medium:
 - MinSizeSubarraySum
 - MaxSizeSubarrayWithTargetSum
+- SubArrayProductLessThanK
 - CountDistinctElementsInEveryWindowOfSizeK
 - SlidingSubArrayBeauty
 
