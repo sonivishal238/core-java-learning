@@ -38,5 +38,6 @@ Medium:
 - CountDistinctElementsInEveryWindowOfSizeK
 - SlidingSubArrayBeauty
 - LongestSubstringWithKUniques
+- FruitsInTheBasketLeetCode
 
 Hard:
