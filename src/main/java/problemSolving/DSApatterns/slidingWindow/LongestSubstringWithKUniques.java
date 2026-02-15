@@ -13,6 +13,12 @@ public class LongestSubstringWithKUniques {
 
         for(int right = 0; right < len; right++) {
             freq.put(s.charAt(right), freq.getOrDefault(s.charAt(right), 0) + 1);
+
+            // Only update when exactly k distinct characters
+            if (freq.size() == k) {
+                maxlength = Math.max(maxlength, right - left + 1);
+            }
+
             while(freq.size() > k && left < right) {
                 char c = s.charAt(left++);
                 int count = freq.get(c);
@@ -21,12 +27,8 @@ public class LongestSubstringWithKUniques {
                 else freq.put(c, count-1);
             }
 
-            // Only update when exactly k distinct characters
-            if (freq.size() == k) {
-                maxlength = Math.max(maxlength, right - left + 1);
-            }
         }
-        return maxlength;
 
+        return maxlength;
     }
 }
