@@ -39,5 +39,6 @@ Medium:
 - SlidingSubArrayBeauty
 - LongestSubstringWithKUniques
 - FruitsInTheBasketLeetCode
+- LongestSubstringLengthWithoutRepeatingChar
 
 Hard:
