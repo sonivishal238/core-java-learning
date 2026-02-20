@@ -5,7 +5,7 @@ import java.util.Map;
 
 /*
 https://leetcode.com/problems/fruit-into-baskets/
-based on LongestSubstringWithKUniques, more of kike longest substring with uniques <= k
+based on LongestSubstringWithKUniques, more of like longest substring with uniques <= k
  */
 public class FruitsInTheBasketLeetCode {
 

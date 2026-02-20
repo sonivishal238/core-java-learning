@@ -42,3 +42,4 @@ Medium:
 - LongestSubstringLengthWithoutRepeatingChar
 
 Hard:
+- LongestRepeatingCharacterReplacement

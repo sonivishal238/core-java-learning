@@ -24,7 +24,6 @@ Easy:
 - TwoSumSortedArray
 - TwoSumUnsortedArray
 - RemoveDuplicatesFromSortedArray
-- SortArrayWithZeroOneAndTwoDutchNationalFlag
 - SquaresOfSortedArray
 - MergeTwoSortedArrays
 
@@ -33,3 +32,6 @@ Medium:
 - ThreeSumToZero
 - ThreeSumCloseToTarget
 - ThreeSumSmallerThanTarget
+
+Hard
+- SortArrayWithZeroOneAndTwoDutchNationalFlag
