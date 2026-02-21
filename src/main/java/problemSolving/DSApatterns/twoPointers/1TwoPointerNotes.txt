@@ -34,6 +34,7 @@ Medium:
 - ThreeSumToZero
 - ThreeSumCloseToTarget
 - ThreeSumSmallerThanTarget
+- KDiffPairsInAnArray
 
 Hard
 - SortArrayWithZeroOneAndTwoDutchNationalFlag
