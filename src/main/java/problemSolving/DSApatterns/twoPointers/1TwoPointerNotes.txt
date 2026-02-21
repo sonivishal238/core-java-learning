@@ -37,3 +37,4 @@ Medium:
 
 Hard
 - SortArrayWithZeroOneAndTwoDutchNationalFlag
+- TrappingRainWater
