@@ -30,6 +30,7 @@ Easy:
 
 Medium:
 - HappyNumber
+- ContainerWithMostWater
 - ThreeSumToZero
 - ThreeSumCloseToTarget
 - ThreeSumSmallerThanTarget
