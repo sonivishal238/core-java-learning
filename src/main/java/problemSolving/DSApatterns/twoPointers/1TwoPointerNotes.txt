@@ -29,6 +29,7 @@ Easy:
 
 
 Medium:
+- HappyNumber
 - ThreeSumToZero
 - ThreeSumCloseToTarget
 - ThreeSumSmallerThanTarget
