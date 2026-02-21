@@ -29,7 +29,10 @@ Easy:
 
 
 Medium:
+    // Cycle detection with two pointers
 - HappyNumber
+- FindTheDuplicateNumber
+
 - ContainerWithMostWater
 - ThreeSumToZero
 - ThreeSumCloseToTarget
