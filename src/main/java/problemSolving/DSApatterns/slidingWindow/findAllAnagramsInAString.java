@@ -1,4 +1,4 @@
-package problemSolving.interviewQuestions.stringquestions.medium;
+package problemSolving.DSApatterns.slidingWindow;
 
 import org.testng.annotations.Test;
 
