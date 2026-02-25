@@ -39,5 +39,6 @@ Medium:
 - KDiffPairsInAnArray
 
 Hard
+- FourSumToTarget
 - SortArrayWithZeroOneAndTwoDutchNationalFlag
 - TrappingRainWater
