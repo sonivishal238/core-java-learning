@@ -20,7 +20,6 @@ Questions in this package (To be done in the same order)
 Easy:
 - Reverse Array/String or Plaindrome array/Strings
 - SortArrayWithZeroAndOneOnly
-- SortArrayWithZeroOneAndTwo
 - TwoSumSortedArray
 - TwoSumUnsortedArray
 - RemoveDuplicatesFromSortedArray
