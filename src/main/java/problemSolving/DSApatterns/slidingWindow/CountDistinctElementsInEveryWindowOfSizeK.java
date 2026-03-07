@@ -20,11 +20,11 @@ public class CountDistinctElementsInEveryWindowOfSizeK {
         for (int i = k; i < n; i++) {
 
             // Remove outgoing element
-            int outgoing = arr[i - k];
-            map.put(outgoing, map.get(outgoing) - 1);
+            int key = arr[i - k];
+            map.put(key, map.get(key) - 1);
 
-            if (map.get(outgoing) == 0) {
-                map.remove(outgoing);
+            if (map.get(key) == 0) {
+                map.remove(key);
             }
 
             // Add incoming element
