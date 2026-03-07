@@ -2,6 +2,9 @@ package problemSolving.DSApatterns.slidingWindow;
 
 import java.util.*;
 
+/*
+https://www.geeksforgeeks.org/dsa/count-distinct-elements-in-every-window-of-size-k/
+ */
 public class CountDistinctElementsInEveryWindowOfSizeK {
 
     public static List<Integer> countDistinct(int[] arr, int k) {
