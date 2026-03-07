@@ -10,28 +10,29 @@ based on LongestSubstringWithKUniques, more of like longest substring with uniqu
 public class FruitsInTheBasketLeetCode {
 
     public int totalFruit(int[] fruits) {
-        int len = fruits.length;
 
-        Map<Integer, Integer> freq = new HashMap<>();
-
-        int left = 0, maxLen = -1;
-
+        int len = fruits.length, maxFruits = -1;
+        Map<Integer, Integer> counter = new HashMap<>();
+        int left = 0;
+        int baskets = 2;
         for(int right = 0; right < len; right++) {
-            freq.put(fruits[right], freq.getOrDefault(fruits[right], 0) + 1);
+            // add incoming
+            counter.put(fruits[right], counter.getOrDefault(fruits[right], 0) + 1);
 
-            if(freq.size() <= 2)
-                maxLen = Math.max(maxLen, right-left+1);
+            // main business logic
+            if(counter.size() <= baskets)
+                maxFruits = Math.max(maxFruits, right-left + 1);
 
-
-            while(freq.size() > 2 && left < right) {
+            while(counter.size() > baskets && left <= right) {
+                // remove outgoing
                 int key = fruits[left++];
-                int value = freq.get(key);
+                int value = counter.get(key);
 
-                if(value == 1) freq.remove(key);
-                else freq.put(key, value-1);
+                if(value == 1) counter.remove(key);
+                else counter.put(key, value - 1);
             }
         }
 
-        return maxLen;
+        return maxFruits;
     }
 }

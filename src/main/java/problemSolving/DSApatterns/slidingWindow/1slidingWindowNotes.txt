@@ -36,9 +36,9 @@ Medium:
 - MaxSizeSubarrayWithTargetSum
 - SubArrayProductLessThanK
 - CountDistinctElementsInEveryWindowOfSizeK
-- SlidingSubArrayBeauty
 - LongestSubstringWithKUniques
 - FruitsInTheBasketLeetCode
+- SlidingSubArrayBeauty
 - LongestSubstringLengthWithoutRepeatingChar
 - findAllAnagramsInAString
 
