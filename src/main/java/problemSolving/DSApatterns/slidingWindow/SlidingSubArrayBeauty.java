@@ -41,11 +41,11 @@ public class SlidingSubArrayBeauty {
     }
 
     private static int getXthElement(TreeMap<Integer, Integer> map, int x) {
-        int count = 0;
+        int beauty = 0;
 
         for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            count+=entry.getValue();
-            if(count>=x) {
+            beauty +=entry.getValue();
+            if(beauty >=x) {
                 return entry.getKey();
             }
         }
