@@ -26,7 +26,7 @@ public class MinSizeSubarraySum {
         for (int right = 0; right < nums.length; right++) {
             sum += nums[right];
 
-            while(sum >= target) {
+            while(sum >= target && left <= right) {
                 // Calculate the length
                 minLen = Math.min(minLen, right-left+1);
 
